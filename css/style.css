@@ -1,0 +1,141 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* INIZIO HEADER */
+/* Header Menù */
+header .container .col-lg-2 h4 {
+    text-transform: uppercase;
+    line-height: 67px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+header .container nav {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+header .container nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+header .container nav li a {
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    color: black;
+    line-height: 70px;
+    padding: 0px 16px;
+}
+
+header .container .col-lg-2 a {
+    border-right: 1px solid black;
+}
+
+header .container .col-lg-2 .spagna {
+    border-right: 1px solid white;
+}
+/* Fine Header Menù */
+
+/* Inizio Primo Background Titolo */
+header .img-title {
+    background-image: url("../img/image-header.jpg");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+header .img-title .block-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+header .img-title .block-title h2 {
+    display: block ruby;
+    font-size: 40px;
+    margin: 7px 0;
+}
+
+header .img-title .block-title p {
+    display: block;
+    margin: 16px 0;
+}
+/* Fine Primo Background Titolo */
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+/* Inzio Elenco Prodotti */
+#products .container {
+    padding: 80px 30px;
+}
+
+#products .container .col-lg-6 {
+    background-color: #fafafa;
+    max-width: 475px;
+    text-align: center;
+    padding: 40px 0;
+    margin: 0 25px;
+}
+
+#products .container .text-product h3 {
+    font-size: 2em;
+    margin: 0.4em 0;
+}
+
+#products .container .text-product p {
+    font-size: 1.3em;
+    margin: 0.4em 0;
+}
+
+#products .container .text-product a {
+    display: block;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+#products .container .text-product img {
+    width: 100%;
+}
+/* Fine Elenco Prodotti */
+
+/* Inizio Parte centrale */
+#question .container {
+  text-align: center;
+}
+#question .col-lg-12 img {
+    background-size: cover;
+    max-width: 100%;
+}
+
+#question .col-lg-2 {
+    height: 200px;
+}
+
+#question .col-lg-2 h4 {
+    font-size: 1.5em;
+}
+
+#question .col-lg-2 span {
+    display: block;
+    font-size: 0.8em;
+}
+
+#question .col-lg-2 > * {
+    position: relative;
+    top: 40%;
+    text-align: initial;
+}
+
+#question .col-lg-4 img {
+    max-height: 500px;
+    margin-top: -260px;
+}
+/* Inizio Parte centrale */
+
+/* FINE MAIN */
