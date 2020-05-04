@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
 }
 
 /* INIZIO HEADER */
@@ -84,13 +85,13 @@ header .img-title .block-title p {
 }
 
 #products .container .text-product h3 {
-    font-size: 2em;
-    margin: 0.4em 0;
+    font-size: 30px;
+    margin: 7px 0;
 }
 
 #products .container .text-product p {
-    font-size: 1.3em;
-    margin: 0.4em 0;
+    font-size: 20px;
+    margin: 7px 0;
 }
 
 #products .container .text-product a {
@@ -104,7 +105,7 @@ header .img-title .block-title p {
 }
 /* Fine Elenco Prodotti */
 
-/* Inizio Parte centrale */
+/* Inizio Prima Parte centrale */
 #question .container {
   text-align: center;
 }
@@ -118,12 +119,16 @@ header .img-title .block-title p {
 }
 
 #question .col-lg-2 h4 {
-    font-size: 1.5em;
+    font-size: 20px;
+}
+
+#question .col-lg-2 h2 {
+    font-size: 25px;
 }
 
 #question .col-lg-2 span {
     display: block;
-    font-size: 0.8em;
+    font-size: 12px;
 }
 
 #question .col-lg-2 > * {
@@ -136,6 +141,221 @@ header .img-title .block-title p {
     max-height: 500px;
     margin-top: -260px;
 }
-/* Inizio Parte centrale */
+/* Fine Prima Parte Centrale */
 
+/* Inizio Seconda Parte Colonna */
+#ecology .container {
+    background-image: url("../img/ScooterHelbiz-2400.jpg");
+    background-size: cover;
+    height: 500px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#ecology .col-lg-offset-6 {
+    height: 100%;
+}
+
+#ecology .col-lg-6 {
+    height: 100%;
+    position: relative;
+}
+
+#ecology .col-lg-6 .block-text {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#ecology .col-lg-6 .block-text h2 {
+    font-size: 3em;
+    margin: 0.4em 0;
+}
+
+#ecology .col-lg-6 .block-text p {
+    font-size: 1.2em;
+    margin: 0.9em 0;
+}
+
+#ecology .col-lg-6 .block-text a {
+    text-decoration: none;
+    color: white;
+}
+/* FIne Seconda Parte Colonna */
+
+/* Inizio Terza Parte Colonna */
+#easy-peasy .container {
+    margin-bottom: 40px;
+    padding: 0 40px;
+}
+
+#easy-peasy .col-lg-6 {
+    text-align: center;
+    color: white;
+}
+
+#easy-peasy .col-lg-6:first-child {
+    padding-right: 40px;
+}
+
+#easy-peasy .col-lg-6 > * {
+    padding-top: 50px;
+}
+
+#easy-peasy .col-lg-6 h3 {
+    font-size: 2em;
+    margin-bottom: 0.4em;
+}
+
+#easy-peasy .col-lg-6 p {
+    font-size: 1.3em;
+    margin: 0.4em 0;
+}
+
+#easy-peasy .col-lg-6 a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+#easy-peasy .col-lg-6 .easy-app {
+    background: linear-gradient(#41566a,#252f38) 50% no-repeat;
+    width: 100%;
+    height: 450px;
+}
+
+#easy-peasy .col-lg-6 .easy-app li {
+    display: inline-block;
+    list-style: none;
+}
+
+#easy-peasy .col-lg-6 .easy-app img {
+    background-size: cover;
+    max-height: 281px;
+}
+
+#easy-peasy .col-lg-6 .easy-globe {
+    background-image: url("../img/Cities-1500.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+/* Fine Terza Parte */
+
+/* Inizio Quarta Parte Colonna */
+#social .container {
+    margin-bottom: 40px;
+}
+
+#social .col-lg-12 {
+    background-image: url("../img/Social-Banner.jpg");
+    background-size: cover;
+    height: 387px;
+    max-width: 100%;
+    position: relative;
+}
+
+#social .icon-social {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    background-color: white;
+    height: 150px;
+    width: 400px;
+}
+
+#social .icon-social h3 {
+    font-size: 2em;
+    margin: 1em 0.6em 0;
+}
+#social .icon-social li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#social .icon-social i {
+    color: black;
+    font-size: 1.4em;
+    margin: 0.5em 0.9em;
+}
+/* Fine Quarta Colonna */
 /* FINE MAIN */
+/* INIZIO FOOTER */
+footer .container {
+    background-color: black;
+    color: white;
+    height: 700px;
+    padding: 100px 35px;
+}
+
+footer .container .col-lg-10 {
+    height: 100%;
+}
+
+footer .col-lg-10 .list-footer {
+    width: 100%;
+    height: 60%;
+}
+
+footer .col-lg-10 .list-footer .col-lg-3 h4 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+footer .col-lg-10 .list-footer .col-lg-3 li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+footer .col-lg-10 .list-footer .col-lg-3 li a {
+    text-decoration: none;
+    color: #6f6f6f;
+    margin: 8px 0;
+}
+footer .col-lg-10 .list-footer > * {
+    float: left;
+}
+
+footer .col-lg-10 .first-hr {
+    color: #6f6f6f;
+    margin-bottom: 30px;
+}
+
+footer .col-lg-10 .social-footer {
+    width: 100%;
+    height: 10%;
+}
+
+footer .col-lg-10 .social-footer .col-lg-3 li {
+    list-style: none;
+    display: inline-block;
+}
+
+footer .col-lg-10 .social-footer .col-lg-3 li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .col-lg-10 .social-footer .col-lg-3 li a i {
+    font-size: 1.4em;
+    margin: 0 0.3em;
+}
+
+footer .col-lg-10 .second-hr {
+    color: #6f6f6f;
+    margin-bottom: 30px;
+}
+
+footer .col-lg-10 .store-footer {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+/* FINE FOOTER */
